@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "AlemuADF"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
 		"lnk_toDataBricksStorage_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'lnk_toDataBricksStorage'"
@@ -45,6 +49,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
 					},
 					"lnk_toDataBricksStorage_connectionString": {
 						"value": "[parameters('lnk_toDataBricksStorage_connectionString')]"

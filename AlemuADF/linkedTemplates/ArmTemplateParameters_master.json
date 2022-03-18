@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "AlemuADF"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"lnk_toDataBricksStorage_connectionString": {
 			"value": ""
 		},
