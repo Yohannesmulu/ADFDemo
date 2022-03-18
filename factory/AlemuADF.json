@@ -1,0 +1,9 @@
+{
+	"name": "AlemuADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ef4e0403-8201-4906-b9bb-737f8b02fbfb",
+		"tenantId": "2963ec05-f1f5-47e2-87d4-7a172ac8de7c"
+	}
+}

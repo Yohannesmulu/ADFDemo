@@ -1,0 +1,7 @@
+{
+	"name": "myselfhostedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "My self hosted integration run time"
+	}
+}
